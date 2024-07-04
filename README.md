@@ -8,7 +8,7 @@ This project implements an image fusion strategy to enhance shape classification
 # Project Structure
 ## Image-Fusion-Shape-Classification/
 ### Directory Structure
-* **Imagefusion_dataset/**                  # Directory for dataset files
+* **Imagefusion_dataset.zip**                  # Directory for dataset files
 * **models/**               # Directory for storing trained models
 * **results/**              # Directory for storing results like confusion matrices
 * **image_fusion.ipynb**            # Google Colab notebook for image fusion
