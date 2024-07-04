@@ -29,6 +29,7 @@ This project implements an image fusion strategy to enhance shape classification
 - TensorFlow
 - NumPy
 - Matplotlib
+- PyTorch
 
 You can install the dependencies using pip:
 
