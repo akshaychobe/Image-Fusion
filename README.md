@@ -11,11 +11,10 @@ This project implements an image fusion strategy to enhance shape classification
 * **Imagefusion_dataset/**                  # Directory for dataset files
 * **models/**               # Directory for storing trained models
 * **results/**              # Directory for storing results like confusion matrices
-* **notebook/**            # Google Colab notebook
+* **image_fusion.ipynb**            # Google Colab notebook for image fusion
 * **report/**               # Directory for report files
-	+ **final_report.pdf**   # Your task report
+	+ **report.pdf**   # Your task report
 * **README.md**             # Project overview and instructions
-* **.gitignore**            # Files and directories to ignore
 
 
 ## How to Run
