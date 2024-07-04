@@ -13,7 +13,7 @@ This project implements an image fusion strategy to enhance shape classification
 * **results/**              # Directory for storing results like confusion matrices
 * **image_fusion.ipynb**            # Google Colab notebook for image fusion
 * **report/**               # Directory for report files
-	+ **report.pdf**   # Your task report
+	+ **report.pdf**   # Task report
 * **README.md**             # Project overview and instructions
 
 
