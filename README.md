@@ -37,31 +37,37 @@ You can install the dependencies using pip:
 ```bash
 pip install tensorflow numpy matplotlib
 ```
-Methodology
-
-Change LeNet5 Architecture:
-
+# Methodology
+## Change LeNet5 Architecture
 Modified the original LeNet-5 architecture to handle larger, grayscale images and distinguish between four classes (geometric shapes).
-Train and Evaluate LeNet without Fusion:
 
-Trained three separate LeNet-5 models on images with different background types (gradient, noise, spotlight).
+## Train and Evaluate LeNet without Fusion
+Trained three separate LeNet-5 models on images with different background types:
+* Gradient
+* Noise
+* Spotlight
 Evaluated each model's accuracy using confusion matrices.
-Implementing Fusion Strategy:
 
-Low-Level Fusion: Combined the pixel values of the three images using pixel-based average fusion.
-High-Level Fusion: Merged the results of models trained on different image backgrounds using majority voting.
-Train and Evaluate LeNet with Fusion:
+## Implementing Fusion Strategy
+### Low-Level Fusion
+Combined the pixel values of the three images using pixel-based average fusion.
 
+### High-Level Fusion
+Merged the results of models trained on different image backgrounds using majority voting.
+
+## Train and Evaluate LeNet with Fusion
 Trained a new LeNet-5 model on the fused dataset.
 Evaluated the combined model's accuracy and compared it with individual models.
-Results
 
+# Results
 The fusion strategy significantly improved the classification accuracy. The following table summarizes the accuracy of different models:
 
-Models and Accuracies
-Model 1 - Gradient Background	70.0%
-Model 2 - Noise Background	61.5%
-Model 3 - Spotlight Background	71.5%
-Low-Level Fusion (Average Selection)	77.5%
-Low and High-Level Fusion (Majority Voting)	82.5%
+### Models and Accuracies
+| Model | Accuracy |
+| --- | --- |
+| Model 1 - Gradient Background | 70.0% |
+| Model 2 - Noise Background | 61.5% |
+| Model 3 - Spotlight Background | 71.5% |
+| Low-Level Fusion (Average Selection) | 77.5% |
+| Low and High-Level Fusion (Majority Voting) | 82.5% |
 
