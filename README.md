@@ -5,24 +5,18 @@ Image Fusion for Enhanced Shape Classification using LeNet-5
 
 This project implements an image fusion strategy to enhance shape classification using a modified LeNet-5 architecture. The synthetic dataset used contains 1000 instances, each having three 32x32 images representing one of the four geometric shapes (pentagon, circle, square, or triangle) with different background types (gradient, noise, and spotlight).
 
-## Project Structure
-Image-Fusion-Shape-Classification/
-│
-├── data/ # Directory for dataset files
-│
-├── models/ # Directory for storing trained models
-│
-├── results/ # Directory for storing results like confusion matrices
-│
-├── notebooks/ # Directory for Jupyter notebooks
-│ └── image_fusion.ipynb # Your Google Colab notebook
-│
-├── report/ # Directory for report files
-│ └── final_report.pdf # Your task report
-│
-├── README.md # Project overview and instructions
-│
-└── .gitignore # Files and directories to ignore
+# Project Structure
+## Image-Fusion-Shape-Classification/
+### Directory Structure
+* **data/**                  # Directory for dataset files
+* **models/**               # Directory for storing trained models
+* **results/**              # Directory for storing results like confusion matrices
+* **notebooks/**            # Directory for Jupyter notebooks
+	+ **image_fusion.ipynb**  # Your Google Colab notebook
+* **report/**               # Directory for report files
+	+ **final_report.pdf**   # Your task report
+* **README.md**             # Project overview and instructions
+* **.gitignore**            # Files and directories to ignore
 
 
 ## How to Run
